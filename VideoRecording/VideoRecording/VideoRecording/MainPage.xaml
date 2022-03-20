@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VideoRecording.MainPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="imgcamara" BackgroundColor="LightSlateGray" HorizontalOptions="FillAndExpand" Grid.Row="0" Grid.ColumnSpan="3"/>
+        <Button x:Name="btnvideo" Text="Grabar video" Clicked="btnvideo_Clicked"  HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="1" BackgroundColor="DodgerBlue" FontAttributes="Bold" Margin="2"></Button>
+        <Entry x:Name="txtName" Placeholder="Ingrese un nombre de video" Grid.Row="2" Grid.ColumnSpan="3" Keyboard="Plain"></Entry>
+        <Entry x:Name="txtDescription" Placeholder="Ingrese descripcion de video" Grid.Row="3" Grid.ColumnSpan="3" Keyboard="Plain"></Entry>
+        <Button x:Name="btnSave" Text="Guardar" Clicked="btnSave_Clicked"  HorizontalOptions="FillAndExpand" Grid.Row="4" Grid.Column="1" BackgroundColor="DarkSeaGreen" FontAttributes="Bold"></Button>
+        
+        <Button x:Name="btnViewVideos"  BackgroundColor="Gray" Text="Ver Videos" Clicked="btnViewVideos_Clicked"></Button>
+    </Grid>
+
+</ContentPage>

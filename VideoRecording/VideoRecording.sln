@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoRecording.Android", "VideoRecording\VideoRecording.Android\VideoRecording.Android.csproj", "{4B916867-ECCF-4C55-A231-3F21C792AC9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoRecording", "VideoRecording\VideoRecording\VideoRecording.csproj", "{91B818E5-7561-401F-9820-752D401F8C5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B916867-ECCF-4C55-A231-3F21C792AC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B916867-ECCF-4C55-A231-3F21C792AC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B916867-ECCF-4C55-A231-3F21C792AC9D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4B916867-ECCF-4C55-A231-3F21C792AC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B916867-ECCF-4C55-A231-3F21C792AC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B916867-ECCF-4C55-A231-3F21C792AC9D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{91B818E5-7561-401F-9820-752D401F8C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B818E5-7561-401F-9820-752D401F8C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B818E5-7561-401F-9820-752D401F8C5A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{91B818E5-7561-401F-9820-752D401F8C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B818E5-7561-401F-9820-752D401F8C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B818E5-7561-401F-9820-752D401F8C5A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA9682EA-CBD0-42A2-B40C-435E1DA82BEA}
+	EndGlobalSection
+EndGlobal
